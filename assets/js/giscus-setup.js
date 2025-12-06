@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "AlaaSelim-sudo/alaaselim.github.io",
+    "data-repo": "AlaaSelim-sudo/AlaaSelim-sudo.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
