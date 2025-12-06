@@ -38,7 +38,7 @@ and
 <span class="badge bg-warning text-dark mb-1">cyber-physical security</span>.  
 My research focuses on inverter-dominated distribution networks, grid-forming converters, and resilient control for DER-rich power systems.
 
-Previously, I completed my PhD in Electrical Engineering at **UNSW Canberra**, and held research and teaching roles at the **University of Connecticut (UConn)**, where I worked on DRL-based Volt-VAR optimization, restoration control, and cyber-attack detection for active distribution networks.
+
 
 ---
 
