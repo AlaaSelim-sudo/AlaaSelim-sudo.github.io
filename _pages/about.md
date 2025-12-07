@@ -39,7 +39,7 @@ Before joining the PhD program, I worked as an **Application Design Engineer at 
 
 I am also an **entrepreneur and co-founder of an early-stage startup** focused on **intelligent energy management and battery optimization** for homes and small businesses. Through an **NSF-supported entrepreneurship program at UConn**, I led customer discovery interviews, developed hardware–software prototypes using microcontrollers, sensors, and NVIDIA Jetson platforms, and validated **AI-driven scheduling strategies** that combine user comfort with grid-friendly operation.
 
-Teaching and mentoring are central to my career. I have served as a **Teaching Assistant and project co-supervisor at UConn and Ain Shams University**, taught labs in engineering foundations, power electronics, and modeling of PV systems, and delivered **industrial training in control automation and SCADA**. I enjoy designing project-based, hands-on learning experiences that help students connect theory to real systems.
+
 
 ---
 
