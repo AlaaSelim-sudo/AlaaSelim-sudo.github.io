@@ -9,7 +9,7 @@ subtitle: >
 
 profile:
   align: right
-  image: Alaa_pic.jpg
+  image: Alaa_pic1.jpg
   image_circular: true
   more_info: >
     <p>Thayer School of Engineering at Dartmouth</p>
