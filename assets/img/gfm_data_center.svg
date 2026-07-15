@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" rx="26" fill="#f8fafc"/>
+  <text x="600" y="55" text-anchor="middle" font-size="32" font-weight="700" style="font-family: Arial, Helvetica, sans-serif;" fill="#102033">Grid-Forming Data Center Flexibility</text>
+  <g style="font-family: Arial, Helvetica, sans-serif;" font-size="18" fill="#102033">
+    <rect x="85" y="150" width="240" height="150" rx="18" fill="#fff" stroke="#c8d2e1" stroke-width="2"/>
+    <text x="205" y="195" text-anchor="middle" font-weight="700">Large Data Center</text><text x="205" y="230" text-anchor="middle">flexible demand</text><text x="205" y="255" text-anchor="middle">IT service constraints</text>
+    <rect x="480" y="150" width="240" height="150" rx="18" fill="#fff" stroke="#c8d2e1" stroke-width="2"/>
+    <text x="600" y="195" text-anchor="middle" font-weight="700">Grid-Forming Resource</text><text x="600" y="230" text-anchor="middle">frequency support</text><text x="600" y="255" text-anchor="middle">voltage support</text>
+    <rect x="875" y="150" width="240" height="150" rx="18" fill="#fff" stroke="#c8d2e1" stroke-width="2"/>
+    <text x="995" y="195" text-anchor="middle" font-weight="700">Security Screen</text><text x="995" y="230" text-anchor="middle">nadir • RoCoF</text><text x="995" y="255" text-anchor="middle">voltage limits</text>
+    <path d="M335 225 L470 225" stroke="#6b7c93" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M730 225 L865 225" stroke="#6b7c93" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="425" y="385" width="350" height="70" rx="18" fill="#102033"/><text x="600" y="428" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">Dynamic hosting capacity under contingencies</text>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#6b7c93"/></marker></defs>
+</svg>

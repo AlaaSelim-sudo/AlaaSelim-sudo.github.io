@@ -23,12 +23,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-research",
+          title: "Research",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-group",
+          title: "Group",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/group/";
           },
         },{id: "nav-repositories",
           title: "repositories",
@@ -38,8 +52,8 @@ ninja.data = [{
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          title: "CV",
+          description: "Selected academic CV including education, research experience, publications, awards, mentoring, service, and technical skills.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -440,54 +454,49 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-my-personal-website-to-keep-updates-of-my-research-and-other-work",
+            },},{id: "news-advanced-powerguard-pg2-a-cyber-physical-defense-framework-for-detecting-and-mitigating-abnormal-grid-communication-and-control-behavior",
+          title: 'Advanced PowerGuard PG2, a cyber-physical defense framework for detecting and mitigating abnormal grid...',
+          description: "",
+          section: "News",},{id: "news-started-the-patient-to-power-protocol-project-a-critical-facility-energy-resilience-effort-linking-patient-surge-hospital-workflows-and-power-system-decision-support-during-compound-outage-events",
+          title: 'Started the Patient-to-Power Protocol project, a critical-facility energy resilience effort linking patient surge,...',
+          description: "",
+          section: "News",},{id: "news-updated-my-academic-cv-with-recent-publications-presentations-mentoring-awards-leadership-and-professional-service",
+          title: 'Updated my academic CV with recent publications, presentations, mentoring, awards, leadership, and professional...',
+          description: "",
+          section: "News",},{id: "news-updated-the-data-center-restoration-manuscript-with-policy-ablation-results-stress-robustness-analysis-productivity-aware-site-prioritization-and-ieee-300-bus-scalability-validation",
+          title: 'Updated the data-center restoration manuscript with policy-ablation results, stress-robustness analysis, productivity-aware site prioritization,...',
+          description: "",
+          section: "News",},{id: "news-updated-my-academic-website-with-current-projects-group-information-research-directions-news-and-selected-cv-content",
+          title: 'Updated my academic website with current projects, group information, research directions, news, and...',
+          description: "",
+          section: "News",},{id: "news-started-my-personal-website-to-keep-updates-of-my-research-and-other-work",
           title: 'Started my personal website to keep updates of my research and other work...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-data-center-participation-in-grid-restoration",
+          title: 'Data Center Participation in Grid Restoration',
+          description: "A standards-aligned framework for coordinating data centers as restoration-compatible grid assets.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/data-center-restoration/";
+            },},{id: "projects-grid-forming-data-center-flexibility",
+          title: 'Grid-Forming Data Center Flexibility',
+          description: "Dynamic hosting-capacity analysis for data centers with grid-forming resources.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/gfm-data-center-flexibility/";
+            },},{id: "projects-gridguard",
+          title: 'GridGuard',
+          description: "Physics-informed LLM optimization for safer distribution-grid operation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/gridguard/";
+            },},{id: "projects-patient-to-power-protocol",
+          title: 'Patient-to-Power Protocol',
+          description: "A transferable framework for hospital and critical-facility energy resilience during compound outage events.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/p2p-protocol/";
+            },},{id: "projects-powerguard-pg2",
+          title: 'PowerGuard PG2',
+          description: "Cyber-physical defense framework for detecting and mitigating abnormal grid communication and control behavior.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/powerguard-pg2/";
             },},{
         id: 'social-cv',
         title: 'CV',
