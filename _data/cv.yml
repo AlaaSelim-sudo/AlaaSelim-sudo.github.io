@@ -2,96 +2,246 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Alaa Selim
+    - name: Current Position
+      value: Postdoctoral Research Associate, Thayer School of Engineering, Dartmouth College
+    - name: Location
+      value: Hanover, NH, USA
+    - name: Email
+      value: alaa.e.selim@dartmouth.edu
+    - name: Research Areas
+      value: Resilient energy systems, AI for power systems, cyber-physical security, data-center grid integration, grid restoration, and critical-facility energy resilience
+
+- title: Appointment
+  type: time_table
+  contents:
+    - title: Postdoctoral Research Associate
+      institution: Dartmouth College, Hanover, NH, USA
+      year: Sept. 2025 - Present
+      description:
+        - Research in distributed energy resource integration, microgrids, grid-forming controls, critical-facility energy management, and resilient smart-grid operation.
+        - Develops optimization, simulation, AI, and hardware-in-the-loop workflows and mentors graduate and undergraduate researchers.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Electrical and Computer Engineering
+      institution: University of Connecticut, Storrs, CT, USA
+      year: 2021 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Research on AI, optimization, cyber-physical security, and resilience of smart grids and active distribution networks.
 
-- title: Experience
+    - title: Advanced M.Eng. in Marine Microgrids
+      institution: University of Trieste, Trieste, Italy
+      year: 2020 - 2021
+
+    - title: M.Sc. in Electrical Engineering, Energy Systems
+      institution: Ain Shams University, Cairo, Egypt
+      year: 2016 - 2020
+
+    - title: B.Sc. in Electrical Engineering, Power and Machines
+      institution: Ain Shams University, Cairo, Egypt
+      year: 2011 - 2016
+
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Research Associate
+      institution: Dartmouth College, Thayer School of Engineering, Hanover, NH, USA
+      year: Jun. 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Leads research on DER integration, microgrids, grid-forming controls, critical-facility energy management, and resilient smart-grid operations.
+        - Develops optimization, simulation, AI, and hardware-in-the-loop research workflows.
+
+    - title: Cyber Attack Detection and Defense using Distributed Energy Resources for Large Distribution Networks
+      institution: University of Connecticut and Eversource Energy Center, Storrs, CT, USA
+      year: Jan. 2022 - Aug. 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Developed reinforcement learning and automated machine learning frameworks for detecting and defending distribution networks against false-data injection attacks and malicious Volt-VAR curve modifications.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Cyber-Physical Testbed Integrating RTAC with RTDS for Game-Theoretic Topology Control under Load-Altering Attacks
+      institution: University of Connecticut and Schweitzer Engineering Laboratories, Storrs, CT / Pullman, WA, USA
+      year: Nov. 2023 - Aug. 2025
       description:
+        - Built a cyber-physical testbed integrating RTDS and SEL RTAC capabilities for topology control and distribution-network defense under load-altering attacks.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Grid-Forming Inverters for Enhancing Stability and Resilience in Distribution Networks
+      institution: University of Connecticut and National Renewable Energy Laboratory, Storrs, CT / Golden, CO, USA
+      year: Sept. 2021 - Dec. 2023
+      description:
+        - Implemented grid-forming inverter models to support voltage and frequency stability in inverter-dominated distribution systems.
 
-- title: Open Source Projects
+- title: Industry Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Inverter-Dominated Grid Modeling and Stability Analysis Intern, part-time
+      institution: National Renewable Energy Laboratory, Golden, CO, USA
+      year: May 2024 - Jun. 2025
+      description:
+        - Developed research on stability regions for tuning inner control loops of grid-forming inverters under different grid conditions.
 
-- title: Honors and Awards
+    - title: Data Analytics Research Intern
+      institution: Hitachi America R&D, Energy Solutions Lab, California, USA
+      year: May 2023 - Aug. 2023
+      description:
+        - Developed scalable Volt-VAR optimization using deep reinforcement learning and RLlib-IMPALA on the Ray platform.
+
+    - title: Application Design Engineer
+      institution: Schneider Electric, Power & Energy Team, Cairo, Egypt
+      year: Aug. 2018 - Aug. 2021
+      description:
+        - Worked on automation and SCADA projects for critical infrastructure, including data centers, power plants, and refinery automation systems.
+
+- title: Selected Publications
   type: time_table
   contents:
-    - year: 1921
+    - title: From Electricity Outage Analysis and Monitoring to Mitigation and Restoration
+      institution: Nature Reviews Electrical Engineering
+      year: 2026
+      description:
+        - Y. Liu, A. Selim, I. Dobson, J. Zhao, G. Sansavini, B. Hartmann, and F. Ding.
+
+    - title: Robust Detection of Cyber-Attacks on Distribution System Volt-VAR Control via Adversarial and Uncertain Analysis
+      institution: IEEE Internet of Things Journal
+      year: 2025
+      description:
+        - A. Selim, J. Zhao, F. Miao, S.-Y. Park, S. Zuo, G. Fragkos, and Y. Meng.
+
+    - title: Safe Deep Reinforcement Learning for Robust Frequency and Voltage-Constrained Networked Microgrid Restoration
+      institution: IEEE Transactions on Industry Applications
+      year: 2025
+      description:
+        - A. Selim, J. Zhao, J. Dong, and J. Lian.
+
+    - title: Large Language Model for Smart Inverter Cyber-Attack Detection via Textual Analysis of Volt/VAR Commands
+      institution: IEEE Transactions on Smart Grid
+      year: 2024
+      description:
+        - A. Selim, J. Zhao, F. Ding, F. Miao, and S.-Y. Park.
+
+    - title: Adaptive Deep Reinforcement Learning Algorithm for Distribution System Cyber Attack Defense with High Penetration of DERs
+      institution: IEEE Transactions on Smart Grid
+      year: 2023
+      description:
+        - A. Selim, J. Zhao, F. Ding, F. Miao, and S.-Y. Park.
+
+- title: Grants and Proposals
+  type: time_table
+  contents:
+    - title: The Patient-to-Power Protocol
+      institution: Irving Institute Pilot Grant
+      year: 2026
+      description:
+        - Transferable, surge-coupled framework for critical-facility energy management during compound outage events.
+        - Amount: $30,000; Duration: 12 months; PI: Alaa Selim.
+
+- title: Mentoring
+  type: time_table
+  contents:
+    - title: Run Yang
+      institution: Dartmouth College
+      year: Graduate
+      description:
+        - Large language models for power systems optimization.
+
+    - title: Maanat H. Bhadani
+      institution: Dartmouth College
+      year: Undergraduate
+      description:
+        - Agentic AI in power systems.
+
+    - title: Wai Yan Win Aung
+      institution: Dartmouth College
+      year: Undergraduate
+      description:
+        - Agentic AI in power systems.
+
+    - title: Seth Han
+      institution: Dartmouth College
+      year: Undergraduate
+      description:
+        - Cybersecurity of healthcare systems.
+
+    - title: Adhiraj Sud
+      institution: Dartmouth College
+      year: Undergraduate
+      description:
+        - Cybersecurity for virtual power plants.
+
+    - title: Joshua Li
+      institution: University of Rochester
+      year: Undergraduate
+      description:
+        - Forecasting data using transformers.
+
+    - title: Kharissa Moore
+      institution: University of Connecticut
+      year: Undergraduate
+      description:
+        - Cyber-physical system co-simulation.
+
+    - title: Mai Elghabaty, Mariam El Karimy, and Salma El Karimy
+      institution: Ain Shams University
+      year: Undergraduate
+      description:
+        - Design of buck-boost converters for wind turbines.
+
+- title: Awards and Fellowships
+  type: time_table
+  contents:
+    - year: 2026
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Dartmouth College and University of New Hampshire Postdoc Research Day Best Poster Award
+        - Dartmouth College Postdoctoral Scholar Professional Development Award
+        - Irving Institute Pilot Grant
 
-- title: Academic Interests
+    - year: 2025
+      items:
+        - INFORMS Annual Meeting Best Poster Award, 1st prize, Student Poster Competition
+        - University of Connecticut Doctoral Dissertation Award
+        - Graduate Research Symposium Best Research Poster, 1st rank, Data Science and AI category
+
+    - year: 2024
+      items:
+        - IEEE PES Outstanding Volunteer Award, UConn Chapter
+        - IEEE PES Grid Edge Best Research Award, 3-minute Ph.D. dissertation challenge
+        - Eversource Clean Energy and Sustainability Innovation Program Fellowship
+        - Sikorsky Fellowship, UConn College of Engineering
+
+- title: Leadership and Service
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Leadership
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Advisory Board Member, Brownian Labs, 2026-Present
+        - Executive Board Member, Dartmouth Postdoc Association, 2025-Present
+        - Vice President, Graduate Student Senate, University of Connecticut, 2024-2025
+        - Secretary and Co-Chair, IEEE PES/PELS Chapter at UConn, 2021-2025
 
-- title: Other Interests
-  type: list
+    - title: Technical Program Committee
+      items:
+        - IEEE Canada Electrical Power and Energy Conference, 2026
+        - IEEE SmartGridComm, 2025-2026
+        - IEEE International Smart Cities Conference, 2026
+        - IEEE Power & Energy Society Multi-Agent Systems Working Group, 2024
+
+    - title: Professional Memberships
+      items:
+        - IEEE
+        - ACM
+        - INFORMS
+
+- title: Technical Skills
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Programming
+      items:
+        - Python, PyTorch, TensorFlow, Keras, R, C, C++, Java, MATLAB, Delphi, LaTeX
+
+    - title: Power and Energy Tools
+      items:
+        - DIgSILENT PowerFactory, HOMER, XENDEE, RSCAD, GridLAB-D, OpenDSS, Typhoon HIL, PSCAD/EMTDC, PSS/E, CYME, ETAP, Simulink/Simscape
+
+    - title: Optimization and Systems Tools
+      items:
+        - PuLP, CPLEX, SCIP, GurobiPy, Docker, Node-RED, SQL, RTAC

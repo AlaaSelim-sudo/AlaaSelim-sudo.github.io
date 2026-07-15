@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" rx="26" fill="#f8fafc"/>
+  <text x="600" y="55" text-anchor="middle" font-size="32" font-weight="700" style="font-family: Arial, Helvetica, sans-serif;" fill="#102033">GridGuard: Physics-Informed LLM Optimization</text>
+  <g style="font-family: Arial, Helvetica, sans-serif;" font-size="18" fill="#102033">
+    <rect x="70" y="160" width="225" height="130" rx="18" fill="#fff" stroke="#c8d2e1" stroke-width="2"/>
+    <text x="182" y="202" text-anchor="middle" font-weight="700">Grid State</text><text x="182" y="235" text-anchor="middle">feeder data</text><text x="182" y="260" text-anchor="middle">alarms and constraints</text>
+    <path d="M305 225 L380 225" stroke="#6b7c93" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="395" y="130" width="260" height="190" rx="22" fill="#fff" stroke="#c8d2e1" stroke-width="2"/>
+    <text x="525" y="175" text-anchor="middle" font-weight="700">LLM Planner</text><text x="525" y="213" text-anchor="middle">interprets operator goal</text><text x="525" y="243" text-anchor="middle">suggests candidate actions</text><text x="525" y="273" text-anchor="middle">explains rationale</text>
+    <path d="M665 225 L740 225" stroke="#6b7c93" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="755" y="130" width="260" height="190" rx="22" fill="#fff" stroke="#c8d2e1" stroke-width="2"/>
+    <text x="885" y="175" text-anchor="middle" font-weight="700">Physics Screen</text><text x="885" y="213" text-anchor="middle">power-flow constraints</text><text x="885" y="243" text-anchor="middle">voltage and thermal limits</text><text x="885" y="273" text-anchor="middle">safe action filter</text>
+    <rect x="425" y="390" width="350" height="70" rx="18" fill="#102033"/><text x="600" y="433" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">Human-readable, constraint-checked decisions</text>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#6b7c93"/></marker></defs>
+</svg>
