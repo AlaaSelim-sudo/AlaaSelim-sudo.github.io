@@ -133,7 +133,7 @@
       year: 2026
       description:
         - Transferable, surge-coupled framework for critical-facility energy management during compound outage events.
-        - Amount: $30,000; Duration: 12 months; PI: Alaa Selim.
+        - "Amount: $30,000; Duration: 12 months; PI: Alaa Selim."
 
 - title: Mentoring
   type: time_table
