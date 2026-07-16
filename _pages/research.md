@@ -10,22 +10,22 @@ nav_order: 2
 
 My research develops **AI-assisted, physics-informed, and optimization-based methods for resilient energy systems**. The goal is to help operators prepare for disturbances, evaluate candidate actions before deployment, and preserve critical services during outages, cyber-physical events, and rapid large-load growth.
 
-<div class="row justify-content-sm-center mt-3 mb-3">
-  <div class="col-sm-11 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/research_directions_gil_2026.svg' | relative_url }}" alt="Research directions for Grid Intelligence Lab" class="img-fluid rounded z-depth-1">
+<div class='row justify-content-sm-center mt-3 mb-3'>
+  <div class='col-sm-11 mt-3 mt-md-0'>
+    <img src='{{ "/assets/img/research_directions_uploaded_layered.svg" | relative_url }}' alt='Research directions for Grid Intelligence Lab' class='img-fluid rounded z-depth-1'>
   </div>
 </div>
-<div class="caption">
-  Research directions for Grid Intelligence Lab, connecting resilient grid operation, AI for power systems, cyber-physical security, grid-aware infrastructure, and data-center flexibility.
+<div class='caption'>
+  Layered research directions for Grid Intelligence Lab, connecting core methods, decision support, and application domains including grids, AI, security, data centers, critical infrastructure, BESS, and EV mobility.
 </div>
 
 ## Research pillars
 
-<div class="row mt-4">
-  <div class="col-md-6 mb-3"><div class="card hoverable p-3 h-100"><h4>1. Resilient grid restoration</h4><p>Optimization and safe control for outage mitigation, dynamic restoration, blackstart-compatible resources, and microgrid recovery.</p></div></div>
-  <div class="col-md-6 mb-3"><div class="card hoverable p-3 h-100"><h4>2. AI for power-system operation</h4><p>Safe reinforcement learning, model-predictive control, physics-informed learning, and LLM-assisted operator decision support.</p></div></div>
-  <div class="col-md-6 mb-3"><div class="card hoverable p-3 h-100"><h4>3. Cyber-physical security</h4><p>Detection and mitigation of false-data injection, load-altering, topology, and communication-driven attacks in active distribution networks.</p></div></div>
-  <div class="col-md-6 mb-3"><div class="card hoverable p-3 h-100"><h4>4. Grid-aware critical infrastructure</h4><p>Coordinating data centers, hospitals, and other large facilities as reliable, safe, and flexible participants in energy-system operation.</p></div></div>
+<div class='row mt-4'>
+  <div class='col-md-6 mb-3'><div class='card hoverable p-3 h-100'><h4>1. Resilient grid restoration</h4><p>Optimization and safe control for outage mitigation, dynamic restoration, blackstart-compatible resources, and microgrid recovery.</p></div></div>
+  <div class='col-md-6 mb-3'><div class='card hoverable p-3 h-100'><h4>2. AI for power-system operation</h4><p>Safe reinforcement learning, model-predictive control, physics-informed learning, and LLM-assisted operator decision support.</p></div></div>
+  <div class='col-md-6 mb-3'><div class='card hoverable p-3 h-100'><h4>3. Cyber-physical security</h4><p>Detection and mitigation of false-data injection, load-altering, topology, and communication-driven attacks in active distribution networks.</p></div></div>
+  <div class='col-md-6 mb-3'><div class='card hoverable p-3 h-100'><h4>4. Grid-aware critical infrastructure</h4><p>Coordinating data centers, hospitals, BESS, EV charging, and other large flexible assets as reliable participants in energy-system operation.</p></div></div>
 </div>
 
 ## Current directions
@@ -35,3 +35,5 @@ My research develops **AI-assisted, physics-informed, and optimization-based met
 - **PowerGuard PG2:** multi-evidence cyber-physical defense for grid communication and control actions.
 - **GridGuard:** physics-informed LLM optimization for safe distribution-grid operation.
 - **Grid-forming data-center flexibility:** dynamic hosting-capacity assessment under frequency, voltage, and transient-security constraints.
+- **BESS and energy storage:** battery analytics, SoH/SOC estimation, storage control, and resilience-oriented grid support.
+- **Electric vehicles and mobility:** EV charging coordination, V2G flexibility, and transportation-grid coupling.
