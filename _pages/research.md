@@ -12,11 +12,11 @@ My research develops **AI-assisted, physics-informed, and optimization-based met
 
 <div class="row justify-content-sm-center mt-3 mb-3">
   <div class="col-sm-11 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/research_overview.svg' | relative_url }}" alt="Research overview" class="img-fluid rounded z-depth-1">
+    <img src="{{ '/assets/img/research_directions_gil_2026.svg' | relative_url }}" alt="Research directions for Grid Intelligence Lab" class="img-fluid rounded z-depth-1">
   </div>
 </div>
 <div class="caption">
-  Research overview connecting power-system physics, AI and optimization, cyber-physical security, and critical infrastructure.
+  Research directions for Grid Intelligence Lab, connecting resilient grid operation, AI for power systems, cyber-physical security, grid-aware infrastructure, and data-center flexibility.
 </div>
 
 ## Research pillars
