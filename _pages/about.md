@@ -53,5 +53,5 @@ My research asks how modern energy infrastructure can move from reactive recover
   <a class="btn btn-primary btn-sm" href="{{ '/research/' | relative_url }}">Research</a>
   <a class="btn btn-outline-primary btn-sm" href="{{ '/projects/' | relative_url }}">Projects</a>
   <a class="btn btn-outline-primary btn-sm" href="{{ '/people/' | relative_url }}">People</a>
-  <a class="btn btn-outline-primary btn-sm" href="{{ '/cv/' | relative_url }}">CV</a>
+  <a class="btn btn-outline-primary btn-sm" href="{{ '/talks/' | relative_url }}">Talks</a>
 </div>
