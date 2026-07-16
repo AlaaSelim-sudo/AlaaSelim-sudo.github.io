@@ -1,1 +1,69 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='650' viewBox='0 0 1400 650'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#0f172a'/><stop offset='100%' stop-color='#1d4ed8'/></linearGradient><filter id='s'><feDropShadow dx='0' dy='14' stdDeviation='12' flood-color='#000' flood-opacity='0.25'/></filter><marker id='a' markerWidth='12' markerHeight='12' refX='10' refY='6' orient='auto'><path d='M2,2 L10,6 L2,10 Z' fill='#dbeafe'/></marker></defs><rect width='1400' height='650' rx='34' fill='url(#g)'/><text x='700' y='78' text-anchor='middle' font-family='Inter,Arial' font-size='42' font-weight='800' fill='#fff'>GridGuard</text><text x='700' y='120' text-anchor='middle' font-family='Inter,Arial' font-size='21' fill='#dbeafe'>Physics-informed LLM optimization for safer distribution-grid operation</text><g filter='url(#s)' font-family='Inter,Arial'><rect x='90' y='210' width='270' height='170' rx='26' fill='#fff'/><text x='225' y='265' text-anchor='middle' font-size='25' font-weight='800' fill='#0f172a'>Grid state</text><text x='225' y='310' text-anchor='middle' font-size='18' fill='#475569'>feeder · alarms · constraints</text><rect x='445' y='180' width='250' height='230' rx='30' fill='#fff'/><text x='570' y='235' text-anchor='middle' font-size='25' font-weight='800' fill='#0f172a'>LLM planner</text><text x='570' y='285' text-anchor='middle' font-size='18' fill='#475569'>interprets goals</text><text x='570' y='315' text-anchor='middle' font-size='18' fill='#475569'>suggests actions</text><text x='570' y='345' text-anchor='middle' font-size='18' fill='#475569'>explains rationale</text><rect x='760' y='180' width='250' height='230' rx='30' fill='#fff'/><text x='885' y='235' text-anchor='middle' font-size='25' font-weight='800' fill='#0f172a'>Physics screen</text><text x='885' y='285' text-anchor='middle' font-size='18' fill='#475569'>power flow</text><text x='885' y='315' text-anchor='middle' font-size='18' fill='#475569'>voltage and thermal limits</text><text x='885' y='345' text-anchor='middle' font-size='18' fill='#475569'>reject unsafe actions</text><rect x='1085' y='210' width='225' height='170' rx='26' fill='#fff'/><text x='1197' y='265' text-anchor='middle' font-size='25' font-weight='800' fill='#0f172a'>Operator</text><text x='1197' y='310' text-anchor='middle' font-size='18' fill='#475569'>safe recommendation</text></g><path d='M375 295 L425 295' stroke='#dbeafe' stroke-width='6' fill='none' marker-end='url(#a)'/><path d='M705 295 L740 295' stroke='#dbeafe' stroke-width='6' fill='none' marker-end='url(#a)'/><path d='M1020 295 L1065 295' stroke='#dbeafe' stroke-width='6' fill='none' marker-end='url(#a)'/><rect x='430' y='505' width='540' height='70' rx='24' fill='#eff6ff' opacity='0.95'/><text x='700' y='548' text-anchor='middle' font-family='Inter,Arial' font-size='24' font-weight='800' fill='#1e3a8a'>LLM creativity with power-system verification</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <style>
+      .title{font-family:Inter,Arial,sans-serif;font-size:44px;font-weight:800;fill:#0f172a}
+      .subtitle{font-family:Inter,Arial,sans-serif;font-size:22px;fill:#475569}
+      .label{font-family:Inter,Arial,sans-serif;font-size:24px;font-weight:800;fill:#0f172a}
+      .small{font-family:Inter,Arial,sans-serif;font-size:18px;fill:#475569}
+      .tiny{font-family:Inter,Arial,sans-serif;font-size:15px;fill:#64748b}
+      .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2.2;filter:url(#shadow)}
+      .soft{fill:#f8fafc;stroke:#dbe3ef;stroke-width:1.6}
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.14"/></filter>
+    <marker id="arrow" markerWidth="15" markerHeight="15" refX="12" refY="7.5" orient="auto"><path d="M1,1 L13,7.5 L1,14 Z" fill="#1d4ed8"/></marker>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#eef2ff"/></linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" rx="34" fill="#ffffff"/>
+  <rect x="40" y="35" width="1520" height="830" rx="34" fill="#f8fafc" stroke="#e2e8f0"/>
+  <rect x="80" y="70" width="1440" height="118" rx="26" fill="url(#top)" stroke="#cbd5e1"/>
+  <text x="120" y="123" class="title">GridGuard</text>
+  <text x="120" y="158" class="subtitle">Physics-informed LLM optimization for safer distribution-grid operation and operator decision support</text>
+
+  <g transform="translate(90,255)">
+    <rect class="panel" x="0" y="0" width="280" height="230" rx="28"/>
+    <text x="140" y="55" class="label" text-anchor="middle">Grid state</text>
+    <text x="140" y="100" class="small" text-anchor="middle">feeder measurements</text>
+    <text x="140" y="130" class="small" text-anchor="middle">alarms and events</text>
+    <text x="140" y="160" class="small" text-anchor="middle">operator objective</text>
+    <path d="M80 190 L200 190" stroke="#94a3b8" stroke-width="3"/><circle cx="90" cy="190" r="7" fill="#1d4ed8"/><circle cx="140" cy="190" r="7" fill="#1d4ed8"/><circle cx="190" cy="190" r="7" fill="#1d4ed8"/>
+  </g>
+
+  <path d="M390 370 C440 370 470 370 520 370" stroke="#1d4ed8" stroke-width="6" fill="none" marker-end="url(#arrow)"/>
+
+  <g transform="translate(520,225)">
+    <rect class="panel" x="0" y="0" width="310" height="290" rx="30"/>
+    <text x="155" y="58" class="label" text-anchor="middle">LLM planner</text>
+    <rect class="soft" x="45" y="92" width="220" height="48" rx="16"/><text x="155" y="123" class="small" text-anchor="middle">interpret goal</text>
+    <rect class="soft" x="45" y="158" width="220" height="48" rx="16"/><text x="155" y="189" class="small" text-anchor="middle">generate candidates</text>
+    <rect class="soft" x="45" y="224" width="220" height="48" rx="16"/><text x="155" y="255" class="small" text-anchor="middle">explain rationale</text>
+  </g>
+
+  <path d="M850 370 C895 370 920 370 970 370" stroke="#1d4ed8" stroke-width="6" fill="none" marker-end="url(#arrow)"/>
+
+  <g transform="translate(970,225)">
+    <rect class="panel" x="0" y="0" width="340" height="290" rx="30"/>
+    <text x="170" y="58" class="label" text-anchor="middle">Physics verifier</text>
+    <rect class="soft" x="48" y="92" width="244" height="48" rx="16"/><text x="170" y="123" class="small" text-anchor="middle">power-flow screen</text>
+    <rect class="soft" x="48" y="158" width="244" height="48" rx="16"/><text x="170" y="189" class="small" text-anchor="middle">voltage and thermal limits</text>
+    <rect class="soft" x="48" y="224" width="244" height="48" rx="16"/><text x="170" y="255" class="small" text-anchor="middle">reject unsafe actions</text>
+  </g>
+
+  <path d="M1330 370 C1370 370 1390 370 1430 370" stroke="#1d4ed8" stroke-width="6" fill="none" marker-end="url(#arrow)"/>
+
+  <g transform="translate(1335,272)">
+    <rect class="panel" x="95" y="0" width="120" height="200" rx="26"/>
+    <circle cx="155" cy="62" r="32" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+    <path d="M140 64 L153 77 L174 48" fill="none" stroke="#1d4ed8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="155" y="128" class="small" text-anchor="middle">safe</text>
+    <text x="155" y="155" class="small" text-anchor="middle">operator</text>
+    <text x="155" y="182" class="small" text-anchor="middle">action</text>
+  </g>
+
+  <g transform="translate(250,630)">
+    <rect class="panel" x="0" y="0" width="1100" height="145" rx="28"/>
+    <text x="550" y="45" class="label" text-anchor="middle">Closed-loop design</text>
+    <text x="550" y="82" class="small" text-anchor="middle">LLM reasoning proposes actions, while simulation and grid constraints determine what can safely reach the operator.</text>
+    <text x="550" y="112" class="tiny" text-anchor="middle">Use cases: restoration, voltage support, cyber-screening, and distribution-network decision support.</text>
+  </g>
+</svg>
