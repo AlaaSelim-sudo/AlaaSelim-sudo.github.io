@@ -1,1 +1,29 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='650' viewBox='0 0 1400 650'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#082f49'/><stop offset='100%' stop-color='#065f46'/></linearGradient><filter id='s'><feDropShadow dx='0' dy='14' stdDeviation='12' flood-color='#000' flood-opacity='0.25'/></filter><marker id='a' markerWidth='12' markerHeight='12' refX='10' refY='6' orient='auto'><path d='M2,2 L10,6 L2,10 Z' fill='#e0f2fe'/></marker></defs><rect width='1400' height='650' rx='34' fill='url(#g)'/><text x='700' y='78' text-anchor='middle' font-family='Inter,Arial' font-size='40' font-weight='800' fill='#fff'>Data Centers as Restoration-Compatible Grid Assets</text><text x='700' y='120' text-anchor='middle' font-family='Inter,Arial' font-size='21' fill='#d1fae5'>Coordinating flexible large loads without compromising critical IT service</text><g filter='url(#s)' font-family='Inter,Arial'><rect x='90' y='210' width='270' height='170' rx='26' fill='#fff'/><text x='225' y='265' text-anchor='middle' font-size='25' font-weight='800' fill='#0f172a'>Restoration event</text><text x='225' y='310' text-anchor='middle' font-size='18' fill='#475569'>blackstart · pickup</text><text x='225' y='340' text-anchor='middle' font-size='18' fill='#475569'>limited grid support</text><rect x='555' y='170' width='290' height='250' rx='30' fill='#fff'/><text x='700' y='225' text-anchor='middle' font-size='26' font-weight='800' fill='#0f172a'>Data center campus</text><text x='700' y='275' text-anchor='middle' font-size='18' fill='#475569'>import/export envelope</text><text x='700' y='305' text-anchor='middle' font-size='18' fill='#475569'>backup generation</text><text x='700' y='335' text-anchor='middle' font-size='18' fill='#475569'>battery and IT flexibility</text><rect x='1040' y='210' width='270' height='170' rx='26' fill='#fff'/><text x='1175' y='265' text-anchor='middle' font-size='25' font-weight='800' fill='#0f172a'>Restoration value</text><text x='1175' y='310' text-anchor='middle' font-size='18' fill='#475569'>more served load</text><text x='1175' y='340' text-anchor='middle' font-size='18' fill='#475569'>lower unserved energy</text></g><path d='M375 295 C450 295 480 295 535 295' stroke='#e0f2fe' stroke-width='6' fill='none' marker-end='url(#a)'/><path d='M865 295 C940 295 975 295 1020 295' stroke='#e0f2fe' stroke-width='6' fill='none' marker-end='url(#a)'/><rect x='440' y='505' width='520' height='70' rx='24' fill='#ecfeff' opacity='0.95'/><text x='700' y='548' text-anchor='middle' font-family='Inter,Arial' font-size='24' font-weight='800' fill='#064e3b'>Policy ablation · stress robustness · IEEE 300-bus scalability</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" rx="26" fill="#f8fafc"/>
+  <text x="600" y="55" text-anchor="middle" font-size="32" font-weight="700" style="font-family: Arial, Helvetica, sans-serif;" fill="#102033">Data Centers as Restoration-Compatible Grid Assets</text>
+  <g style="font-family: Arial, Helvetica, sans-serif;" font-size="18" fill="#102033">
+    <rect x="65" y="165" width="210" height="115" rx="18" fill="#fff" stroke="#c8d2e1" stroke-width="2"/>
+    <text x="170" y="205" text-anchor="middle" font-weight="700">Grid Event</text>
+    <text x="170" y="235" text-anchor="middle">blackstart /</text><text x="170" y="260" text-anchor="middle">restoration</text>
+    <path d="M285 222 L390 222" stroke="#6b7c93" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="400" y="130" width="240" height="185" rx="20" fill="#fff" stroke="#c8d2e1" stroke-width="2"/>
+    <text x="520" y="172" text-anchor="middle" font-weight="700">Data Center Model</text>
+    <text x="520" y="207" text-anchor="middle">grid import/export</text>
+    <text x="520" y="232" text-anchor="middle">backup generation</text>
+    <text x="520" y="257" text-anchor="middle">battery support</text>
+    <text x="520" y="282" text-anchor="middle">IT flexibility</text>
+    <path d="M650 222 L755 222" stroke="#6b7c93" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="765" y="130" width="240" height="185" rx="20" fill="#fff" stroke="#c8d2e1" stroke-width="2"/>
+    <text x="885" y="172" text-anchor="middle" font-weight="700">Coordination Policy</text>
+    <text x="885" y="207" text-anchor="middle">site scoring</text>
+    <text x="885" y="232" text-anchor="middle">support scheduling</text>
+    <text x="885" y="257" text-anchor="middle">critical IT protection</text>
+    <text x="885" y="282" text-anchor="middle">restoration metrics</text>
+
+    <rect x="410" y="385" width="380" height="70" rx="18" fill="#102033"/>
+    <text x="600" y="428" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">Outcome: more restored load with protected critical service</text>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#6b7c93"/></marker></defs>
+</svg>
