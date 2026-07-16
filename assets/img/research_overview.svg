@@ -1,54 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='900' viewBox='0 0 1600 900'>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04111f"/><stop offset="0.55" stop-color="#0a2a43"/><stop offset="1" stop-color="#0b5f6c"/></linearGradient>
-    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8fbff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
-    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.32"/></filter>
-    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#8fefff"/></marker>
-    <style>
-      .title{font-family:Inter,Arial,sans-serif;font-size:44px;font-weight:850;fill:white}
-      .sub{font-family:Inter,Arial,sans-serif;font-size:20px;fill:#c7edf5}
-      .card{fill:url(#node);stroke:#a6e7f2;stroke-width:1.5;filter:url(#shadow)}
-      .h{font-family:Inter,Arial,sans-serif;font-size:23px;font-weight:800;fill:#062033}
-      .t{font-family:Inter,Arial,sans-serif;font-size:16px;fill:#34556b}
-      .wire{stroke:#8fefff;stroke-width:3;stroke-opacity:.75;fill:none;marker-end:url(#arrow)}
-      .pulse{fill:#8fefff;opacity:.72}
-    </style>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#061421'/><stop offset='55%' stop-color='#123a5c'/><stop offset='100%' stop-color='#0d9488'/></linearGradient>
+    <radialGradient id='glow' cx='50%' cy='42%' r='55%'><stop offset='0%' stop-color='#7dd3fc' stop-opacity='0.32'/><stop offset='100%' stop-color='#7dd3fc' stop-opacity='0'/></radialGradient>
+    <filter id='shadow'><feDropShadow dx='0' dy='16' stdDeviation='16' flood-color='#000' flood-opacity='0.28'/></filter>
+    <marker id='arrow' markerWidth='14' markerHeight='14' refX='11' refY='7' orient='auto'><path d='M2,2 L12,7 L2,12 Z' fill='#bae6fd'/></marker>
   </defs>
-  <rect width="1400" height="760" rx="38" fill="url(#bg)"/>
-  <circle cx="1260" cy="120" r="240" fill="#49e2ff" opacity=".09"/>
-  <circle cx="100" cy="710" r="310" fill="#40b6ff" opacity=".08"/>
-  <text x="700" y="75" text-anchor="middle" class="title">AI-Assisted Resilient Energy Systems</text>
-  <text x="700" y="113" text-anchor="middle" class="sub">from grid physics and cyber evidence to verified decisions for critical infrastructure</text>
-
-  <rect x="540" y="270" width="320" height="170" rx="32" fill="#061826" stroke="#8fefff" stroke-width="2.2" filter="url(#shadow)"/>
-  <text x="700" y="328" text-anchor="middle" style="font-family:Inter,Arial,sans-serif;font-size:29px;font-weight:850;fill:#fff">Verified Decision Layer</text>
-  <text x="700" y="366" text-anchor="middle" style="font-family:Inter,Arial,sans-serif;font-size:18px;fill:#c7edf5">AI reasoning + optimization</text>
-  <text x="700" y="395" text-anchor="middle" style="font-family:Inter,Arial,sans-serif;font-size:18px;fill:#c7edf5">checked by power-system constraints</text>
-
-  <rect x="85" y="175" width="330" height="145" rx="28" class="card"/>
-  <text x="250" y="228" text-anchor="middle" class="h">Power-system physics</text>
-  <text x="250" y="264" text-anchor="middle" class="t">power flow · dynamics · restoration limits</text>
-
-  <rect x="85" y="465" width="330" height="145" rx="28" class="card"/>
-  <text x="250" y="518" text-anchor="middle" class="h">Cyber-physical evidence</text>
-  <text x="250" y="554" text-anchor="middle" class="t">commands · topology · sensors · protocols</text>
-
-  <rect x="985" y="175" width="330" height="145" rx="28" class="card"/>
-  <text x="1150" y="228" text-anchor="middle" class="h">AI and optimization</text>
-  <text x="1150" y="264" text-anchor="middle" class="t">safe RL · MPC · LLM planning</text>
-
-  <rect x="985" y="465" width="330" height="145" rx="28" class="card"/>
-  <text x="1150" y="518" text-anchor="middle" class="h">Critical infrastructure</text>
-  <text x="1150" y="554" text-anchor="middle" class="t">data centers · hospitals · microgrids</text>
-
-  <path d="M420 248 C500 260 505 305 535 338" class="wire"/>
-  <path d="M420 538 C505 520 508 440 535 388" class="wire"/>
-  <path d="M980 248 C900 260 895 305 865 338" class="wire"/>
-  <path d="M980 538 C895 520 892 440 865 388" class="wire"/>
-
-  <circle cx="250" cy="370" r="5" class="pulse"/><circle cx="1150" cy="370" r="5" class="pulse"/><circle cx="700" cy="535" r="5" class="pulse"/>
-  <path d="M250 370 H515" stroke="#8fefff" stroke-width="2" stroke-opacity=".32"/><path d="M885 370 H1150" stroke="#8fefff" stroke-width="2" stroke-opacity=".32"/><path d="M700 440 V535" stroke="#8fefff" stroke-width="2" stroke-opacity=".32"/>
-
-  <rect x="435" y="630" width="530" height="56" rx="20" fill="#ffffff" opacity=".12" stroke="#8fefff"/>
-  <text x="700" y="666" text-anchor="middle" style="font-family:Inter,Arial,sans-serif;font-size:18px;font-weight:750;fill:#e8fbff">Goal: safer grid operation under outages, uncertainty, and cyber-physical disturbances</text>
+  <rect width='1600' height='900' rx='42' fill='url(#bg)'/>
+  <rect width='1600' height='900' rx='42' fill='url(#glow)'/>
+  <g opacity='0.18' stroke='#dff7ff' stroke-width='1'>
+    <path d='M120 130 H1480 M120 250 H1480 M120 370 H1480 M120 490 H1480 M120 610 H1480 M120 730 H1480'/>
+    <path d='M220 90 V810 M420 90 V810 M620 90 V810 M820 90 V810 M1020 90 V810 M1220 90 V810 M1420 90 V810'/>
+  </g>
+  <text x='800' y='78' text-anchor='middle' font-family='Inter,Arial' font-size='48' font-weight='900' fill='#ffffff'>Grid Intelligence Lab (GIL)</text>
+  <text x='800' y='124' text-anchor='middle' font-family='Inter,Arial' font-size='24' fill='#d1fae5'>AI-assisted, physics-informed decision support for resilient power and energy systems</text>
+  <g font-family='Inter,Arial' filter='url(#shadow)'>
+    <rect x='620' y='280' width='360' height='190' rx='34' fill='#ffffff'/>
+    <text x='800' y='338' text-anchor='middle' font-size='30' font-weight='900' fill='#0f172a'>Verified Intelligence Core</text>
+    <text x='800' y='382' text-anchor='middle' font-size='20' fill='#475569'>physics + optimization + AI reasoning</text>
+    <text x='800' y='420' text-anchor='middle' font-size='18' fill='#64748b'>candidate actions are screened before deployment</text>
+    <circle cx='800' cy='535' r='76' fill='#ecfeff' stroke='#67e8f9' stroke-width='5'/>
+    <text x='800' y='525' text-anchor='middle' font-size='24' font-weight='900' fill='#0f766e'>Safe</text>
+    <text x='800' y='558' text-anchor='middle' font-size='24' font-weight='900' fill='#0f766e'>Decisions</text>
+    <rect x='100' y='250' width='300' height='150' rx='28' fill='#ffffff'/>
+    <text x='250' y='305' text-anchor='middle' font-size='25' font-weight='900' fill='#0f172a'>Grid Physics</text>
+    <text x='250' y='348' text-anchor='middle' font-size='18' fill='#475569'>power flow · dynamics</text>
+    <text x='250' y='377' text-anchor='middle' font-size='18' fill='#475569'>voltage · frequency · limits</text>
+    <rect x='1200' y='250' width='300' height='150' rx='28' fill='#ffffff'/>
+    <text x='1350' y='305' text-anchor='middle' font-size='25' font-weight='900' fill='#0f172a'>AI &amp; Optimization</text>
+    <text x='1350' y='348' text-anchor='middle' font-size='18' fill='#475569'>safe RL · MPC · LLMs</text>
+    <text x='1350' y='377' text-anchor='middle' font-size='18' fill='#475569'>planning under uncertainty</text>
+    <rect x='170' y='620' width='330' height='150' rx='28' fill='#ffffff'/>
+    <text x='335' y='675' text-anchor='middle' font-size='25' font-weight='900' fill='#0f172a'>Cyber-Physical Security</text>
+    <text x='335' y='718' text-anchor='middle' font-size='18' fill='#475569'>attack detection · defense</text>
+    <text x='335' y='747' text-anchor='middle' font-size='18' fill='#475569'>protocol + topology + physics</text>
+    <rect x='1100' y='620' width='330' height='150' rx='28' fill='#ffffff'/>
+    <text x='1265' y='675' text-anchor='middle' font-size='25' font-weight='900' fill='#0f172a'>Critical Infrastructure</text>
+    <text x='1265' y='718' text-anchor='middle' font-size='18' fill='#475569'>data centers · hospitals</text>
+    <text x='1265' y='747' text-anchor='middle' font-size='18' fill='#475569'>large flexible loads</text>
+  </g>
+  <g stroke='#bae6fd' stroke-width='7' fill='none' marker-end='url(#arrow)' opacity='0.95'>
+    <path d='M420 325 C500 330 545 345 610 370'/>
+    <path d='M1180 325 C1100 330 1055 345 990 370'/>
+    <path d='M505 690 C590 650 665 612 737 575'/>
+    <path d='M1095 690 C1010 650 935 612 863 575'/>
+  </g>
+  <g fill='#e0f2fe' opacity='0.9'>
+    <circle cx='510' cy='208' r='6'/><circle cx='1088' cy='204' r='6'/><circle cx='690' cy='190' r='5'/><circle cx='910' cy='188' r='5'/>
+    <path d='M510 208 L690 190 L800 240 L910 188 L1088 204' stroke='#e0f2fe' stroke-width='2' fill='none' opacity='0.55'/>
+  </g>
 </svg>
