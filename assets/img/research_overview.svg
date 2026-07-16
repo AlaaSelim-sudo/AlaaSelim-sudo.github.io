@@ -1,51 +1,147 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='900' viewBox='0 0 1600 900'>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
   <defs>
-    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#061421'/><stop offset='55%' stop-color='#123a5c'/><stop offset='100%' stop-color='#0d9488'/></linearGradient>
-    <radialGradient id='glow' cx='50%' cy='42%' r='55%'><stop offset='0%' stop-color='#7dd3fc' stop-opacity='0.32'/><stop offset='100%' stop-color='#7dd3fc' stop-opacity='0'/></radialGradient>
-    <filter id='shadow'><feDropShadow dx='0' dy='16' stdDeviation='16' flood-color='#000' flood-opacity='0.28'/></filter>
-    <marker id='arrow' markerWidth='14' markerHeight='14' refX='11' refY='7' orient='auto'><path d='M2,2 L12,7 L2,12 Z' fill='#bae6fd'/></marker>
+    <style>
+      .title{font-family:Inter,Arial,sans-serif;font-size:62px;font-weight:800;fill:#08204a;letter-spacing:.2px}
+      .subtitle{font-family:Inter,Arial,sans-serif;font-size:31px;font-style:italic;fill:#23385f}
+      .card-title{font-family:Inter,Arial,sans-serif;font-size:26px;font-weight:800;fill:#ffffff}
+      .center-title{font-family:Inter,Arial,sans-serif;font-size:33px;font-weight:800;fill:#08204a}
+      .body{font-family:Inter,Arial,sans-serif;font-size:21px;fill:#1f2937}
+      .body-small{font-family:Inter,Arial,sans-serif;font-size:19px;fill:#334155}
+      .footer{font-family:Inter,Arial,sans-serif;font-size:26px;fill:#064e5f}
+      .footer-bold{font-family:Inter,Arial,sans-serif;font-size:29px;font-weight:800;fill:#065f65}
+      .icon{fill:none;stroke:#0b7285;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .thin{stroke:#9aa7b8;stroke-width:2.2}
+      .arrow{fill:none;stroke:#08204a;stroke-width:4.5;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0f172a" flood-opacity="0.16"/>
+    </filter>
+    <linearGradient id="navy" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#061b45"/><stop offset="1" stop-color="#0b3b75"/>
+    </linearGradient>
+    <linearGradient id="footerBg" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#f0fdfa"/><stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <marker id="arrowHead" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#08204a"/>
+    </marker>
   </defs>
-  <rect width='1600' height='900' rx='42' fill='url(#bg)'/>
-  <rect width='1600' height='900' rx='42' fill='url(#glow)'/>
-  <g opacity='0.18' stroke='#dff7ff' stroke-width='1'>
-    <path d='M120 130 H1480 M120 250 H1480 M120 370 H1480 M120 490 H1480 M120 610 H1480 M120 730 H1480'/>
-    <path d='M220 90 V810 M420 90 V810 M620 90 V810 M820 90 V810 M1020 90 V810 M1220 90 V810 M1420 90 V810'/>
+
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="800" y="76" text-anchor="middle" class="title">Research Directions</text>
+  <text x="800" y="123" text-anchor="middle" class="subtitle">Grid Intelligence Lab (GIL)</text>
+
+  <!-- connector lines behind cards -->
+  <path class="arrow" d="M523 277 H604" marker-end="url(#arrowHead)"/>
+  <path class="arrow" d="M996 277 H1080" marker-end="url(#arrowHead)"/>
+  <path class="arrow" d="M355 442 H560 V418 H604" marker-end="url(#arrowHead)"/>
+  <path class="arrow" d="M1245 442 H1040 V418 H996" marker-end="url(#arrowHead)"/>
+  <path class="arrow" d="M800 488 V542" marker-end="url(#arrowHead)"/>
+
+  <!-- top-left card -->
+  <g filter="url(#softShadow)">
+    <rect x="50" y="158" width="465" height="225" rx="16" fill="#ffffff" stroke="#08204a" stroke-width="2.6"/>
+    <path d="M50 174 Q50 158 66 158 H499 Q515 158 515 174 V221 H50 Z" fill="url(#navy)"/>
+    <text x="282" y="199" text-anchor="middle" class="card-title">Resilient Grid Operation</text>
+    <g class="icon" transform="translate(94 247)">
+      <path d="M0 80 H86"/><path d="M43 -10 V80"/><path d="M12 80 L43 -10 L74 80"/><path d="M21 30 H65"/><path d="M10 50 H76"/><path d="M20 12 L66 12"/>
+    </g>
+    <line x1="174" y1="238" x2="174" y2="352" class="thin"/>
+    <circle cx="202" cy="258" r="5" fill="#0b7285"/><text x="222" y="265" class="body-small">restoration and blackstart</text>
+    <circle cx="202" cy="302" r="5" fill="#0b7285"/><text x="222" y="309" class="body-small">microgrids and DER coordination</text>
+    <circle cx="202" cy="346" r="5" fill="#0b7285"/><text x="222" y="353" class="body-small">extreme-event resilience</text>
   </g>
-  <text x='800' y='78' text-anchor='middle' font-family='Inter,Arial' font-size='48' font-weight='900' fill='#ffffff'>Grid Intelligence Lab (GIL)</text>
-  <text x='800' y='124' text-anchor='middle' font-family='Inter,Arial' font-size='24' fill='#d1fae5'>AI-assisted, physics-informed decision support for resilient power and energy systems</text>
-  <g font-family='Inter,Arial' filter='url(#shadow)'>
-    <rect x='620' y='280' width='360' height='190' rx='34' fill='#ffffff'/>
-    <text x='800' y='338' text-anchor='middle' font-size='30' font-weight='900' fill='#0f172a'>Verified Intelligence Core</text>
-    <text x='800' y='382' text-anchor='middle' font-size='20' fill='#475569'>physics + optimization + AI reasoning</text>
-    <text x='800' y='420' text-anchor='middle' font-size='18' fill='#64748b'>candidate actions are screened before deployment</text>
-    <circle cx='800' cy='535' r='76' fill='#ecfeff' stroke='#67e8f9' stroke-width='5'/>
-    <text x='800' y='525' text-anchor='middle' font-size='24' font-weight='900' fill='#0f766e'>Safe</text>
-    <text x='800' y='558' text-anchor='middle' font-size='24' font-weight='900' fill='#0f766e'>Decisions</text>
-    <rect x='100' y='250' width='300' height='150' rx='28' fill='#ffffff'/>
-    <text x='250' y='305' text-anchor='middle' font-size='25' font-weight='900' fill='#0f172a'>Grid Physics</text>
-    <text x='250' y='348' text-anchor='middle' font-size='18' fill='#475569'>power flow · dynamics</text>
-    <text x='250' y='377' text-anchor='middle' font-size='18' fill='#475569'>voltage · frequency · limits</text>
-    <rect x='1200' y='250' width='300' height='150' rx='28' fill='#ffffff'/>
-    <text x='1350' y='305' text-anchor='middle' font-size='25' font-weight='900' fill='#0f172a'>AI &amp; Optimization</text>
-    <text x='1350' y='348' text-anchor='middle' font-size='18' fill='#475569'>safe RL · MPC · LLMs</text>
-    <text x='1350' y='377' text-anchor='middle' font-size='18' fill='#475569'>planning under uncertainty</text>
-    <rect x='170' y='620' width='330' height='150' rx='28' fill='#ffffff'/>
-    <text x='335' y='675' text-anchor='middle' font-size='25' font-weight='900' fill='#0f172a'>Cyber-Physical Security</text>
-    <text x='335' y='718' text-anchor='middle' font-size='18' fill='#475569'>attack detection · defense</text>
-    <text x='335' y='747' text-anchor='middle' font-size='18' fill='#475569'>protocol + topology + physics</text>
-    <rect x='1100' y='620' width='330' height='150' rx='28' fill='#ffffff'/>
-    <text x='1265' y='675' text-anchor='middle' font-size='25' font-weight='900' fill='#0f172a'>Critical Infrastructure</text>
-    <text x='1265' y='718' text-anchor='middle' font-size='18' fill='#475569'>data centers · hospitals</text>
-    <text x='1265' y='747' text-anchor='middle' font-size='18' fill='#475569'>large flexible loads</text>
+
+  <!-- top-right card -->
+  <g filter="url(#softShadow)">
+    <rect x="1085" y="158" width="465" height="225" rx="16" fill="#ffffff" stroke="#08204a" stroke-width="2.6"/>
+    <path d="M1085 174 Q1085 158 1101 158 H1534 Q1550 158 1550 174 V221 H1085 Z" fill="url(#navy)"/>
+    <text x="1318" y="199" text-anchor="middle" class="card-title">AI for Power Systems</text>
+    <g class="icon" transform="translate(1134 248)">
+      <path d="M52 4 C18 7 2 37 8 70 C12 94 28 111 53 112"/>
+      <path d="M50 26 C68 30 75 44 76 62"/>
+      <circle cx="44" cy="35" r="5"/><circle cx="64" cy="50" r="5"/><circle cx="42" cy="70" r="5"/><circle cx="63" cy="84" r="5"/>
+      <path d="M44 35 L64 50 L42 70 L63 84"/>
+    </g>
+    <line x1="1218" y1="238" x2="1218" y2="352" class="thin"/>
+    <circle cx="1247" cy="258" r="5" fill="#0b7285"/><text x="1267" y="265" class="body-small">safe reinforcement learning</text>
+    <circle cx="1247" cy="302" r="5" fill="#0b7285"/><text x="1267" y="309" class="body-small">physics-informed optimization</text>
+    <circle cx="1247" cy="346" r="5" fill="#0b7285"/><text x="1267" y="353" class="body-small">LLM-based operator support</text>
   </g>
-  <g stroke='#bae6fd' stroke-width='7' fill='none' marker-end='url(#arrow)' opacity='0.95'>
-    <path d='M420 325 C500 330 545 345 610 370'/>
-    <path d='M1180 325 C1100 330 1055 345 990 370'/>
-    <path d='M505 690 C590 650 665 612 737 575'/>
-    <path d='M1095 690 C1010 650 935 612 863 575'/>
+
+  <!-- center card -->
+  <g filter="url(#softShadow)">
+    <rect x="600" y="195" width="400" height="300" rx="20" fill="#ffffff" stroke="#08204a" stroke-width="3"/>
+    <g class="icon" transform="translate(759 227)">
+      <path d="M44 0 C18 8 11 33 23 53 C8 63 8 86 27 95 C34 116 64 115 74 96"/>
+      <path d="M83 0 V97"/><path d="M96 16 H121"/><path d="M96 48 H132"/><path d="M96 78 H121"/>
+      <circle cx="124" cy="16" r="6"/><circle cx="135" cy="48" r="6"/><circle cx="124" cy="78" r="6"/>
+      <circle cx="83" cy="0" r="5"/>
+    </g>
+    <text x="800" y="335" text-anchor="middle" class="center-title">Grid Intelligence Lab (GIL)</text>
+    <line x1="675" y1="366" x2="925" y2="366" stroke="#08204a" stroke-width="3"/>
+    <circle cx="800" cy="366" r="6" fill="#08204a" stroke="#ffffff" stroke-width="4"/>
+    <text x="800" y="410" text-anchor="middle" class="body">AI-assisted, physics-informed,</text>
+    <text x="800" y="441" text-anchor="middle" class="body">and optimization-based methods</text>
+    <text x="800" y="472" text-anchor="middle" class="body">for resilient power and energy systems</text>
   </g>
-  <g fill='#e0f2fe' opacity='0.9'>
-    <circle cx='510' cy='208' r='6'/><circle cx='1088' cy='204' r='6'/><circle cx='690' cy='190' r='5'/><circle cx='910' cy='188' r='5'/>
-    <path d='M510 208 L690 190 L800 240 L910 188 L1088 204' stroke='#e0f2fe' stroke-width='2' fill='none' opacity='0.55'/>
+
+  <!-- bottom-left card -->
+  <g filter="url(#softShadow)">
+    <rect x="50" y="520" width="465" height="225" rx="16" fill="#ffffff" stroke="#08204a" stroke-width="2.6"/>
+    <path d="M50 536 Q50 520 66 520 H499 Q515 520 515 536 V583 H50 Z" fill="url(#navy)"/>
+    <text x="282" y="561" text-anchor="middle" class="card-title">Cyber-Physical Security</text>
+    <g class="icon" transform="translate(98 622)">
+      <path d="M42 -6 L86 12 V49 C86 78 64 96 42 105 C20 96 -2 78 -2 49 V12 Z"/>
+      <rect x="27" y="42" width="30" height="32" rx="5"/><path d="M33 42 V31 C33 20 51 20 51 31 V42"/>
+      <path d="M-20 34 H-2 M86 34 H105 M-20 65 H-2 M86 65 H105"/><circle cx="-25" cy="34" r="4"/><circle cx="110" cy="34" r="4"/><circle cx="-25" cy="65" r="4"/><circle cx="110" cy="65" r="4"/>
+    </g>
+    <line x1="174" y1="600" x2="174" y2="714" class="thin"/>
+    <circle cx="202" cy="620" r="5" fill="#0b7285"/><text x="222" y="627" class="body-small">attack detection and mitigation</text>
+    <circle cx="202" cy="664" r="5" fill="#0b7285"/><text x="222" y="671" class="body-small">communication-aware validation</text>
+    <circle cx="202" cy="708" r="5" fill="#0b7285"/><text x="222" y="715" class="body-small">topology and control defense</text>
+  </g>
+
+  <!-- bottom-center card -->
+  <g filter="url(#softShadow)">
+    <rect x="582" y="560" width="436" height="205" rx="16" fill="#ffffff" stroke="#08204a" stroke-width="2.6"/>
+    <path d="M582 576 Q582 560 598 560 H1002 Q1018 560 1018 576 V623 H582 Z" fill="url(#navy)"/>
+    <text x="800" y="601" text-anchor="middle" class="card-title">Grid-Aware Infrastructure</text>
+    <g class="icon" transform="translate(624 662)">
+      <path d="M0 72 H92"/><path d="M10 72 V10 H35 V-10 H62 V10 H82 V72"/><path d="M46 -2 V24 M33 11 H59"/>
+      <path d="M24 34 H34 M57 34 H67 M24 52 H34 M57 52 H67"/>
+    </g>
+    <line x1="722" y1="642" x2="722" y2="744" class="thin"/>
+    <circle cx="752" cy="662" r="5" fill="#0b7285"/><text x="772" y="669" class="body-small">critical facilities</text>
+    <circle cx="752" cy="702" r="5" fill="#0b7285"/><text x="772" y="709" class="body-small">hospital energy resilience</text>
+    <circle cx="752" cy="742" r="5" fill="#0b7285"/><text x="772" y="749" class="body-small">decision support under outages</text>
+  </g>
+
+  <!-- bottom-right card -->
+  <g filter="url(#softShadow)">
+    <rect x="1085" y="520" width="465" height="225" rx="16" fill="#ffffff" stroke="#08204a" stroke-width="2.6"/>
+    <path d="M1085 536 Q1085 520 1101 520 H1534 Q1550 520 1550 536 V583 H1085 Z" fill="url(#navy)"/>
+    <text x="1318" y="561" text-anchor="middle" class="card-title">Data Centers and Flexible Loads</text>
+    <g class="icon" transform="translate(1129 626)">
+      <rect x="0" y="0" width="42" height="92"/><rect x="52" y="23" width="38" height="69"/>
+      <path d="M12 20 H30 M12 45 H30 M12 70 H30 M63 43 H80 M63 66 H80"/>
+      <path d="M118 27 C147 33 153 55 133 82 C117 66 112 46 118 27 Z"/><path d="M132 82 C126 98 120 104 109 113"/>
+      <path d="M150 105 C171 134 164 157 143 157 C122 157 116 134 150 105 Z"/>
+    </g>
+    <line x1="1244" y1="600" x2="1244" y2="714" class="thin"/>
+    <circle cx="1272" cy="620" r="5" fill="#0b7285"/><text x="1292" y="627" class="body-small">grid integration and restoration</text>
+    <circle cx="1272" cy="664" r="5" fill="#0b7285"/><text x="1292" y="671" class="body-small">hosting capacity and GFM support</text>
+    <circle cx="1272" cy="708" r="5" fill="#0b7285"/><text x="1292" y="715" class="body-small">energy-water-climate impacts</text>
+  </g>
+
+  <!-- footer -->
+  <g filter="url(#softShadow)">
+    <rect x="95" y="805" width="1410" height="66" rx="18" fill="url(#footerBg)" stroke="#0b7285" stroke-width="2"/>
+    <g class="icon" transform="translate(156 826) scale(.62)">
+      <circle cx="26" cy="26" r="18"/><path d="M26 0 V10 M26 42 V52 M0 26 H10 M42 26 H52 M8 8 L15 15 M44 8 L37 15 M8 44 L15 37 M44 44 L37 37"/>
+      <circle cx="78" cy="16" r="14"/><path d="M78 -4 V4 M78 28 V36 M58 16 H66 M90 16 H98"/>
+    </g>
+    <text x="270" y="847" class="footer-bold">Core methods:</text>
+    <text x="510" y="847" class="footer">optimization  •  simulation  •  machine learning  •  hardware-in-the-loop validation</text>
   </g>
 </svg>
