@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - AlaaSelim-sudo
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - AlaaSelim-sudo/GFM
+  - AlaaSelim-sudo/LLM_Cyber_Attacks_Detection
+  - AlaaSelim-sudo/Computing-SCR-IEEE-13
+  - AlaaSelim-sudo/SOP
+  - AlaaSelim-sudo/FCAS
