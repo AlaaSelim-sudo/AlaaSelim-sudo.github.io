@@ -8,10 +8,10 @@ nav_order: 2
 
 # Research
 
-My research focuses on resilient energy systems at the intersection of power systems, AI, optimization, cyber-physical security, and critical infrastructure. A central goal is to move grid operation from reactive recovery toward anticipatory, verified, and operator-friendly decision support.
+My research develops **AI-assisted, physics-informed, and optimization-based methods for resilient energy systems**. The goal is to help operators prepare for disturbances, evaluate candidate actions before deployment, and preserve critical services during outages, cyber-physical events, and rapid large-load growth.
 
-<div class="row justify-content-sm-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
+<div class="row justify-content-sm-center mt-3 mb-3">
+  <div class="col-sm-11 mt-3 mt-md-0">
     <img src="{{ '/assets/img/research_overview.svg' | relative_url }}" alt="Research overview" class="img-fluid rounded z-depth-1">
   </div>
 </div>
@@ -19,40 +19,19 @@ My research focuses on resilient energy systems at the intersection of power sys
   Research overview connecting power-system physics, AI and optimization, cyber-physical security, and critical infrastructure.
 </div>
 
-## Core themes
+## Research pillars
 
-### Resilient energy systems
-
-I develop methods for preparing, operating, and restoring power systems under extreme events, cyber-physical disturbances, and uncertainty. This includes distribution-system restoration, microgrid operation, dynamic recovery, and restoration-compatible coordination of large flexible loads.
-
-### AI and optimization for power systems
-
-I work on safe reinforcement learning, model predictive control, physics-informed machine learning, and LLM-based decision support. The goal is to use AI as a planning and reasoning layer while keeping actions constrained by voltage, frequency, thermal, and service-continuity limits.
-
-### Cyber-physical security
-
-I study cyber attacks on grid communication and control systems, including false-data injection, malicious Volt-VAR modifications, load-altering attacks, and topology/control manipulation. My work emphasizes detection, mitigation, and testbed-based validation.
-
-### Data centers and critical infrastructure
-
-I study how data centers, hospitals, and other critical facilities can interact with the electric grid as flexible but service-constrained assets. This includes data-center support for restoration, hospital energy resilience, backup power coordination, and safe operation during compound outage events.
-
-## Representative project figures
-
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    <img src="{{ '/assets/img/data_center_restoration.svg' | relative_url }}" alt="Data center restoration concept" class="img-fluid rounded z-depth-1">
-  </div>
-</div>
-<div class="caption">
-  Data centers can be modeled as restoration-compatible assets with controllable grid exchange, on-site generation, battery support, and IT flexibility.
+<div class="row mt-4">
+  <div class="col-md-6 mb-3"><div class="card hoverable p-3 h-100"><h4>1. Resilient grid restoration</h4><p>Optimization and safe control for outage mitigation, dynamic restoration, blackstart-compatible resources, and microgrid recovery.</p></div></div>
+  <div class="col-md-6 mb-3"><div class="card hoverable p-3 h-100"><h4>2. AI for power-system operation</h4><p>Safe reinforcement learning, model-predictive control, physics-informed learning, and LLM-assisted operator decision support.</p></div></div>
+  <div class="col-md-6 mb-3"><div class="card hoverable p-3 h-100"><h4>3. Cyber-physical security</h4><p>Detection and mitigation of false-data injection, load-altering, topology, and communication-driven attacks in active distribution networks.</p></div></div>
+  <div class="col-md-6 mb-3"><div class="card hoverable p-3 h-100"><h4>4. Grid-aware critical infrastructure</h4><p>Coordinating data centers, hospitals, and other large facilities as reliable, safe, and flexible participants in energy-system operation.</p></div></div>
 </div>
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    <img src="{{ '/assets/img/gridguard.svg' | relative_url }}" alt="GridGuard concept" class="img-fluid rounded z-depth-1">
-  </div>
-</div>
-<div class="caption">
-  GridGuard uses LLM reasoning only as a planning layer, with final actions screened through power-system constraints.
-</div>
+## Current directions
+
+- **Data centers and grid restoration:** standards-aligned modeling of data centers as restoration-compatible assets.
+- **Patient-to-Power Protocol:** hospital energy resilience linking patient surge, facility workflows, backup power, and operator summaries.
+- **PowerGuard PG2:** multi-evidence cyber-physical defense for grid communication and control actions.
+- **GridGuard:** physics-informed LLM optimization for safe distribution-grid operation.
+- **Grid-forming data-center flexibility:** dynamic hosting-capacity assessment under frequency, voltage, and transient-security constraints.
