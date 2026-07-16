@@ -31,18 +31,11 @@ ninja.data = [{
             window.location.href = "/research/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "Selected research and software projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
-          },
-        },{id: "nav-group",
-          title: "Group",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/group/";
           },
         },{id: "nav-repositories",
           title: "repositories",
@@ -57,6 +50,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-group",
+          title: "Group",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/group/";
           },
         },{id: "nav-teaching",
           title: "teaching",
@@ -86,7 +86,14 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "nav-news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
