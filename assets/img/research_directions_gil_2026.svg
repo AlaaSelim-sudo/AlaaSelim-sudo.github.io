@@ -1,131 +1,86 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
   <defs>
     <style>
-      .title{font-family:Inter,Arial,sans-serif;font-size:64px;font-weight:800;fill:#06204a;letter-spacing:.2px}
-      .subtitle{font-family:Inter,Arial,sans-serif;font-size:32px;font-style:italic;fill:#233b63}
-      .hdr{font-family:Inter,Arial,sans-serif;font-size:25px;font-weight:800;fill:#ffffff}
-      .ctitle{font-family:Inter,Arial,sans-serif;font-size:34px;font-weight:800;fill:#06204a}
-      .body{font-family:Inter,Arial,sans-serif;font-size:25px;fill:#111827}
-      .small{font-family:Inter,Arial,sans-serif;font-size:20px;fill:#334155}
-      .method{font-family:Inter,Arial,sans-serif;font-size:28px;fill:#0f4f5b}
-      .methodb{font-family:Inter,Arial,sans-serif;font-size:32px;font-weight:800;fill:#0f4f5b}
-      .navy{stroke:#06204a;stroke-width:3.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
-      .teal{stroke:#0f766e;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
-      .tealfill{fill:#0f766e}
+      .title{font-family:Arial,Helvetica,sans-serif;font-size:58px;font-weight:800;fill:#0b2c6b}
+      .subtitle{font-family:Arial,Helvetica,sans-serif;font-size:26px;font-style:italic;fill:#27406f}
+      .boxTitle{font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:700;fill:#ffffff}
+      .centerTitle{font-family:Arial,Helvetica,sans-serif;font-size:28px;font-weight:800;fill:#12284c}
+      .body{font-family:Arial,Helvetica,sans-serif;font-size:16px;fill:#1f2937}
+      .footerBold{font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:800;fill:#0b5f6c}
+      .footer{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:#0b5f6c}
+      .bullet{fill:#0b7c8c}
+      .divider{stroke:#9aa7b4;stroke-width:1.5}
+      .navy{fill:#0b2c6b}
+      .stroke{stroke:#0b2c6b;stroke-width:3;fill:#ffffff}
+      .icon{stroke:#0b7c8c;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .arrow{stroke:#0b2c6b;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}
     </style>
-    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.12"/>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.15"/>
     </filter>
-    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="strokeWidth">
-      <path d="M2,2 L10,6 L2,10 Z" fill="#06204a"/>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto">
+      <polygon points="0,0 12,4 0,8" fill="#0b2c6b"/>
     </marker>
   </defs>
 
-  <rect width="1600" height="900" fill="#ffffff"/>
-  <rect x="20" y="20" width="1560" height="860" rx="34" fill="#f8fafc" stroke="#e2e8f0"/>
+  <rect x="0" y="0" width="1600" height="900" fill="#ffffff"/>
+  <text x="800" y="72" text-anchor="middle" class="title">Research Directions</text>
+  <text x="800" y="112" text-anchor="middle" class="subtitle">Grid Intelligence Lab (GIL)</text>
 
-  <text class="title" x="800" y="78" text-anchor="middle">Research Directions</text>
-  <text class="subtitle" x="800" y="124" text-anchor="middle">Grid Intelligence Lab (GIL)</text>
-
-  <!-- center box -->
-  <rect x="565" y="190" width="470" height="320" rx="24" fill="#ffffff" stroke="#06204a" stroke-width="4" filter="url(#shadow)"/>
-  <g transform="translate(760 218)">
-    <path class="navy" d="M20 22c-19 0-32 15-32 34 0 7 2 13 6 19-10 6-16 17-16 30 0 18 14 33 32 34 5 16 19 27 36 27 16 0 29-9 36-22"/>
-    <path class="navy" d="M62 22c19 0 32 15 32 34 0 7-2 13-6 19 10 6 16 17 16 30 0 18-14 33-32 34-5 16-19 27-36 27"/>
-    <path class="teal" d="M47 26v134M47 54h34M81 54v-20M47 88h55M102 88v-22M47 122h44M91 122v25"/>
-    <circle cx="81" cy="34" r="7" fill="#0f766e"/><circle cx="102" cy="66" r="7" fill="#0f766e"/><circle cx="91" cy="147" r="7" fill="#0f766e"/>
+  <g filter="url(#shadow)"><rect x="560" y="160" rx="22" ry="22" width="480" height="280" class="stroke"/></g>
+  <g class="icon">
+    <path d="M748 210c-18 0-32 14-32 32 0 10 4 18 11 24-5 5-8 12-8 20 0 16 13 29 29 29 7 0 13-2 18-6"/>
+    <path d="M788 210c18 0 32 14 32 32 0 10-4 18-11 24 5 5 8 12 8 20 0 16-13 29-29 29-7 0-13-2-18-6"/>
+    <path d="M768 208v114"/><path d="M768 224h-16"/><path d="M768 248h18"/><path d="M768 274h-18"/><path d="M768 298h18"/>
+    <path d="M786 230h22"/><circle cx="815" cy="230" r="4" fill="#0b7c8c" stroke="none"/>
+    <path d="M786 255h38"/><circle cx="831" cy="255" r="4" fill="#0b7c8c" stroke="none"/>
+    <path d="M786 282h24"/><circle cx="817" cy="282" r="4" fill="#0b7c8c" stroke="none"/>
   </g>
-  <text class="ctitle" x="800" y="348" text-anchor="middle">Grid Intelligence Lab (GIL)</text>
-  <line x1="650" y1="380" x2="950" y2="380" stroke="#06204a" stroke-width="3"/>
-  <circle cx="800" cy="380" r="7" fill="#06204a"/>
-  <text class="body" x="800" y="424" text-anchor="middle">AI-assisted, physics-informed,</text>
-  <text class="body" x="800" y="460" text-anchor="middle">and optimization-based methods</text>
-  <text class="body" x="800" y="496" text-anchor="middle">for resilient power and energy systems</text>
+  <text x="800" y="350" text-anchor="middle" class="centerTitle">Grid Intelligence Lab (GIL)</text>
+  <line x1="630" y1="376" x2="970" y2="376" stroke="#0b2c6b" stroke-width="2"/>
+  <circle cx="800" cy="376" r="5" fill="#0b2c6b"/>
+  <text x="800" y="415" text-anchor="middle" class="body">AI-assisted, physics-informed,</text>
+  <text x="800" y="442" text-anchor="middle" class="body">and optimization-based methods</text>
+  <text x="800" y="469" text-anchor="middle" class="body">for resilient power and energy systems</text>
 
-  <!-- connector lines -->
-  <path d="M565 300 L505 300" class="navy" marker-end="url(#arrow)"/>
-  <path d="M1035 300 L1095 300" class="navy" marker-end="url(#arrow)"/>
-  <path d="M565 412 H505 V586" class="navy" marker-end="url(#arrow)"/>
-  <path d="M1035 412 H1110 V586" class="navy" marker-end="url(#arrow)"/>
-  <path d="M800 510 V568" class="navy" marker-end="url(#arrow)"/>
+  <g filter="url(#shadow)"><rect x="80" y="140" width="420" height="190" rx="18" ry="18" class="stroke"/><rect x="80" y="140" width="420" height="52" rx="18" ry="18" fill="#0b2c6b"/><rect x="80" y="174" width="420" height="18" fill="#0b2c6b"/></g>
+  <text x="290" y="174" text-anchor="middle" class="boxTitle">Resilient Grid Operation</text>
+  <g class="icon"><path d="M120 290h65"/><path d="M152 214l-28 76h56z"/><path d="M152 214v-18"/><path d="M136 248h32"/><path d="M131 265h42"/><path d="M126 282h52"/><path d="M152 290v28"/><path d="M139 318h26"/></g>
+  <line x1="210" y1="210" x2="210" y2="305" class="divider"/>
+  <circle cx="250" cy="230" r="5" class="bullet"/><circle cx="250" cy="268" r="5" class="bullet"/><circle cx="250" cy="306" r="5" class="bullet"/>
+  <text x="270" y="236" class="body">restoration and blackstart</text><text x="270" y="274" class="body">microgrids and DER coordination</text><text x="270" y="312" class="body">extreme-event resilience</text>
 
-  <!-- helper: outer boxes -->
-  <g filter="url(#shadow)">
-    <!-- top left -->
-    <rect x="70" y="182" width="430" height="230" rx="18" fill="#ffffff" stroke="#06204a" stroke-width="3"/>
-    <path d="M70 200a18 18 0 0 1 18-18h394a18 18 0 0 1 18 18v52H70z" fill="#06204a"/>
-    <text class="hdr" x="285" y="227" text-anchor="middle">Resilient Grid Operation</text>
-    <g transform="translate(110 282)" class="teal">
-      <path d="M45 0 L80 112 H10 Z"/><path d="M45 0 V112M23 44 H67M17 78 H73M8 112 H82"/>
-      <path d="M45 0 L8 43M45 0 L82 43"/>
-    </g>
-    <line x1="190" y1="278" x2="190" y2="372" stroke="#94a3b8" stroke-width="2"/>
-    <circle cx="220" cy="292" r="6" fill="#0f766e"/><text class="small" x="240" y="300">restoration and blackstart</text>
-    <circle cx="220" cy="330" r="6" fill="#0f766e"/><text class="small" x="240" y="338">microgrids and DER coordination</text>
-    <circle cx="220" cy="368" r="6" fill="#0f766e"/><text class="small" x="240" y="376">extreme-event resilience</text>
+  <g filter="url(#shadow)"><rect x="1100" y="140" width="420" height="190" rx="18" ry="18" class="stroke"/><rect x="1100" y="140" width="420" height="52" rx="18" ry="18" fill="#0b2c6b"/><rect x="1100" y="174" width="420" height="18" fill="#0b2c6b"/></g>
+  <text x="1310" y="174" text-anchor="middle" class="boxTitle">AI for Power Systems</text>
+  <g class="icon"><circle cx="1186" cy="250" r="36"/><path d="M1176 282c10 10 24 14 40 12"/><path d="M1180 230c6-10 18-16 30-15"/><path d="M1204 228c-4 6-3 12 2 18"/><circle cx="1187" cy="239" r="3" fill="#0b7c8c" stroke="none"/><circle cx="1204" cy="246" r="3" fill="#0b7c8c" stroke="none"/><circle cx="1194" cy="258" r="3" fill="#0b7c8c" stroke="none"/><path d="M1187 239l17 7-10 12"/></g>
+  <line x1="1250" y1="210" x2="1250" y2="305" class="divider"/>
+  <circle cx="1290" cy="230" r="5" class="bullet"/><circle cx="1290" cy="268" r="5" class="bullet"/><circle cx="1290" cy="306" r="5" class="bullet"/>
+  <text x="1310" y="236" class="body">safe reinforcement learning</text><text x="1310" y="274" class="body">physics-informed optimization</text><text x="1310" y="312" class="body">LLM-based operator support</text>
 
-    <!-- top right -->
-    <rect x="1100" y="182" width="430" height="230" rx="18" fill="#ffffff" stroke="#06204a" stroke-width="3"/>
-    <path d="M1100 200a18 18 0 0 1 18-18h394a18 18 0 0 1 18 18v52h-430z" fill="#06204a"/>
-    <text class="hdr" x="1315" y="227" text-anchor="middle">AI for Power Systems</text>
-    <g transform="translate(1135 283)" class="teal">
-      <path d="M70 90c-18-10-28-27-27-49 1-31 28-49 55-41 24 7 36 30 30 53"/>
-      <path d="M69 29c18-6 34 7 34 24 0 15-11 27-26 27H58"/>
-      <circle cx="70" cy="26" r="5" fill="#0f766e"/><circle cx="104" cy="53" r="5" fill="#0f766e"/><circle cx="77" cy="80" r="5" fill="#0f766e"/>
-      <path d="M70 26 L104 53 L77 80 L70 26"/>
-    </g>
-    <line x1="1245" y1="278" x2="1245" y2="372" stroke="#94a3b8" stroke-width="2"/>
-    <circle cx="1276" cy="292" r="6" fill="#0f766e"/><text class="small" x="1296" y="300">safe reinforcement learning</text>
-    <circle cx="1276" cy="330" r="6" fill="#0f766e"/><text class="small" x="1296" y="338">physics-informed optimization</text>
-    <circle cx="1276" cy="368" r="6" fill="#0f766e"/><text class="small" x="1296" y="376">LLM-based operator support</text>
+  <g filter="url(#shadow)"><rect x="80" y="470" width="420" height="190" rx="18" ry="18" class="stroke"/><rect x="80" y="470" width="420" height="52" rx="18" ry="18" fill="#0b2c6b"/><rect x="80" y="504" width="420" height="18" fill="#0b2c6b"/></g>
+  <text x="290" y="504" text-anchor="middle" class="boxTitle">Cyber-Physical Security</text>
+  <g class="icon"><path d="M122 567l28-18 28 18v26c0 19-12 36-28 44-16-8-28-25-28-44z"/><rect x="139" y="576" width="22" height="20" rx="4"/><path d="M144 576v-7c0-6 4-11 11-11s11 5 11 11v7"/><path d="M106 582h16"/><circle cx="100" cy="582" r="3" fill="#0b7c8c" stroke="none"/><path d="M194 582h-16"/><circle cx="200" cy="582" r="3" fill="#0b7c8c" stroke="none"/></g>
+  <line x1="210" y1="540" x2="210" y2="635" class="divider"/>
+  <circle cx="250" cy="560" r="5" class="bullet"/><circle cx="250" cy="598" r="5" class="bullet"/><circle cx="250" cy="636" r="5" class="bullet"/>
+  <text x="270" y="566" class="body">attack detection and mitigation</text><text x="270" y="604" class="body">communication-aware validation</text><text x="270" y="642" class="body">topology and control defense</text>
 
-    <!-- bottom left -->
-    <rect x="70" y="570" width="430" height="230" rx="18" fill="#ffffff" stroke="#06204a" stroke-width="3"/>
-    <path d="M70 588a18 18 0 0 1 18-18h394a18 18 0 0 1 18 18v52H70z" fill="#06204a"/>
-    <text class="hdr" x="285" y="615" text-anchor="middle">Cyber-Physical Security</text>
-    <g transform="translate(108 665)" class="teal">
-      <path d="M45 0 L88 18 V58c0 31-22 52-43 64C24 110 2 89 2 58V18Z"/>
-      <rect x="31" y="50" width="28" height="32" rx="5"/><path d="M36 50V39c0-7 5-12 12-12s12 5 12 12v11"/>
-      <path d="M0 44h-28M90 44h28M0 76h-28M90 76h28"/><circle cx="-32" cy="44" r="5" fill="#0f766e"/><circle cx="122" cy="44" r="5" fill="#0f766e"/><circle cx="-32" cy="76" r="5" fill="#0f766e"/><circle cx="122" cy="76" r="5" fill="#0f766e"/>
-    </g>
-    <line x1="190" y1="666" x2="190" y2="760" stroke="#94a3b8" stroke-width="2"/>
-    <circle cx="220" cy="680" r="6" fill="#0f766e"/><text class="small" x="240" y="688">attack detection and mitigation</text>
-    <circle cx="220" cy="718" r="6" fill="#0f766e"/><text class="small" x="240" y="726">communication-aware validation</text>
-    <circle cx="220" cy="756" r="6" fill="#0f766e"/><text class="small" x="240" y="764">topology and control defense</text>
+  <g filter="url(#shadow)"><rect x="600" y="510" width="400" height="170" rx="18" ry="18" class="stroke"/><rect x="600" y="510" width="400" height="52" rx="18" ry="18" fill="#0b2c6b"/><rect x="600" y="544" width="400" height="18" fill="#0b2c6b"/></g>
+  <text x="800" y="544" text-anchor="middle" class="boxTitle">Grid-Aware Infrastructure</text>
+  <g class="icon"><path d="M650 650v-78h55v78"/><path d="M637 650h81"/><path d="M668 572v-22h20v22"/><path d="M675 550h6"/><path d="M660 585h10M685 585h10M660 605h10M685 605h10M660 625h10M685 625h10"/></g>
+  <line x1="740" y1="575" x2="740" y2="650" class="divider"/>
+  <circle cx="780" cy="585" r="5" class="bullet"/><circle cx="780" cy="617" r="5" class="bullet"/><circle cx="780" cy="649" r="5" class="bullet"/>
+  <text x="800" y="591" class="body">critical facilities</text><text x="800" y="623" class="body">hospital energy resilience</text><text x="800" y="655" class="body">decision support under outages</text>
 
-    <!-- bottom center -->
-    <rect x="565" y="595" width="470" height="205" rx="18" fill="#ffffff" stroke="#06204a" stroke-width="3"/>
-    <path d="M565 613a18 18 0 0 1 18-18h434a18 18 0 0 1 18 18v52H565z" fill="#06204a"/>
-    <text class="hdr" x="800" y="640" text-anchor="middle">Grid-Aware Infrastructure</text>
-    <g transform="translate(610 690)" class="teal">
-      <path d="M0 85H105V22H72V0H34v22H0Z"/><path d="M43 12h20M53 3v20"/><path d="M20 45h13M48 45h13M77 45h13M20 68h13M48 68h13M77 68h13"/>
-    </g>
-    <line x1="735" y1="685" x2="735" y2="765" stroke="#94a3b8" stroke-width="2"/>
-    <circle cx="765" cy="702" r="6" fill="#0f766e"/><text class="small" x="785" y="710">critical facilities</text>
-    <circle cx="765" cy="735" r="6" fill="#0f766e"/><text class="small" x="785" y="743">hospital energy resilience</text>
-    <circle cx="765" cy="768" r="6" fill="#0f766e"/><text class="small" x="785" y="776">decision support under outages</text>
+  <g filter="url(#shadow)"><rect x="1100" y="470" width="420" height="190" rx="18" ry="18" class="stroke"/><rect x="1100" y="470" width="420" height="52" rx="18" ry="18" fill="#0b2c6b"/><rect x="1100" y="504" width="420" height="18" fill="#0b2c6b"/></g>
+  <text x="1310" y="504" text-anchor="middle" class="boxTitle">Data Centers and Flexible Loads</text>
+  <g class="icon"><rect x="1145" y="566" width="26" height="62"/><rect x="1179" y="555" width="26" height="73"/><path d="M1228 558c16 8 26 24 26 42-18-3-34-19-42-37 4-3 9-5 16-5z"/><path d="M1230 608c12 10 17 26 14 42-18-4-30-20-31-37 5-2 11-4 17-5z"/><path d="M1152 580h12M1152 596h12M1186 572h12M1186 588h12"/></g>
+  <line x1="1250" y1="540" x2="1250" y2="635" class="divider"/>
+  <circle cx="1290" cy="560" r="5" class="bullet"/><circle cx="1290" cy="598" r="5" class="bullet"/><circle cx="1290" cy="636" r="5" class="bullet"/>
+  <text x="1310" y="566" class="body">grid integration and restoration</text><text x="1310" y="604" class="body">hosting capacity and GFM support</text><text x="1310" y="642" class="body">energy-water-climate impacts</text>
 
-    <!-- bottom right -->
-    <rect x="1100" y="570" width="430" height="230" rx="18" fill="#ffffff" stroke="#06204a" stroke-width="3"/>
-    <path d="M1100 588a18 18 0 0 1 18-18h394a18 18 0 0 1 18 18v52h-430z" fill="#06204a"/>
-    <text class="hdr" x="1315" y="615" text-anchor="middle">Data Centers and Flexible Loads</text>
-    <g transform="translate(1135 666)" class="teal">
-      <rect x="0" y="0" width="48" height="104"/><rect x="62" y="25" width="45" height="79"/>
-      <path d="M12 22h24M12 52h24M12 82h24M74 46h20M74 74h20"/>
-      <path d="M140 8c-28 17-42 42-31 70 26-7 44-31 31-70Z"/><path d="M121 71c10 13 24 22 43 28"/>
-      <path d="M155 48c20 30 30 47 30 62 0 16-13 29-30 29s-30-13-30-29c0-15 10-32 30-62Z"/>
-    </g>
-    <line x1="1245" y1="666" x2="1245" y2="760" stroke="#94a3b8" stroke-width="2"/>
-    <circle cx="1276" cy="680" r="6" fill="#0f766e"/><text class="small" x="1296" y="688">grid integration and restoration</text>
-    <circle cx="1276" cy="718" r="6" fill="#0f766e"/><text class="small" x="1296" y="726">hosting capacity and GFM support</text>
-    <circle cx="1276" cy="756" r="6" fill="#0f766e"/><text class="small" x="1296" y="764">energy-water-climate impacts</text>
-  </g>
+  <path d="M500 235 H555" class="arrow" marker-end="url(#arrowhead)"/><path d="M1040 235 H1095" class="arrow" marker-end="url(#arrowhead)"/><path d="M540 565 H560 V350" class="arrow" marker-end="url(#arrowhead)"/><path d="M1040 350 V565 H1065" class="arrow" marker-end="url(#arrowhead)"/><path d="M800 440 V502" class="arrow" marker-end="url(#arrowhead)"/>
 
-  <!-- footer -->
-  <rect x="120" y="820" width="1360" height="56" rx="18" fill="#ecfeff" stroke="#0f766e" stroke-width="2.5"/>
-  <g transform="translate(170 838)" class="teal">
-    <circle cx="16" cy="16" r="11"/><circle cx="47" cy="16" r="13"/><path d="M16 1v-8M16 31v8M1 16h-8M31 16h8M47 1v-8M47 31v8M32 16h-8M62 16h8"/>
-  </g>
-  <text class="methodb" x="275" y="857">Core methods:</text>
-  <text class="method" x="510" y="857">optimization  •  simulation  •  machine learning  •  hardware-in-the-loop validation</text>
+  <g filter="url(#shadow)"><rect x="120" y="760" width="1360" height="64" rx="18" ry="18" fill="#eef8f9" stroke="#0b7c8c" stroke-width="2"/></g>
+  <g class="icon" transform="translate(160,0)"><circle cx="22" cy="792" r="16"/><circle cx="52" cy="784" r="11"/><path d="M22 770v8M22 806v8M0 792h8M36 792h8M9 779l6 6M29 799l6 6M9 805l6-6M29 785l6-6"/><path d="M52 770v6M52 798v6M40 784h6M58 784h6M44 776l4 4M56 788l4 4M44 792l4-4M56 780l4-4"/></g>
+  <text x="330" y="799" class="footerBold">Core methods:</text><text x="500" y="799" class="footer">optimization &#8226; simulation &#8226; machine learning &#8226; hardware-in-the-loop validation</text>
 </svg>
