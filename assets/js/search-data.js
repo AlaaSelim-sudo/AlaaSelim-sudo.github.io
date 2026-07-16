@@ -58,6 +58,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
+        },{id: "nav-academic-cv",
+          title: "Academic CV",
+          description: "Academic CV including appointments, education, research experience, selected publications, mentoring, awards, leadership, service, and technical skills.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
@@ -78,13 +85,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
-          },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "Selected academic CV including appointments, education, research experience, publications, mentoring, awards, leadership, service, and technical skills.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "post-a-post-with-plotly-js",
         
