@@ -44,19 +44,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
-          },
-        },{id: "nav-academic-cv",
-          title: "Academic CV",
-          description: "Academic CV including appointments, education, research experience, selected publications, mentoring, awards, leadership, service, and technical skills.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
