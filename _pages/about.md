@@ -4,7 +4,7 @@ title: "About"
 permalink: /
 subtitle: >
   <span class="badge bg-success">Postdoctoral Research Associate · Dartmouth</span>
-  <span class="badge bg-primary">Resilient Energy Systems</span>
+  <span class="badge bg-primary">Grid Intelligence Lab (GIL)</span>
   <span class="badge bg-warning text-dark">AI · Power Systems · Cyber-Physical Security</span>
 
 profile:
@@ -30,9 +30,9 @@ latest_posts:
   limit: 0
 ---
 
-I am a postdoctoral researcher at Dartmouth's Thayer School of Engineering. My research focuses on resilient energy systems, AI-assisted power-system operation, cyber-physical security, grid restoration, data-center grid integration, and critical-facility energy resilience.
+I am a postdoctoral researcher at Dartmouth's Thayer School of Engineering and founder of the **Grid Intelligence Lab (GIL)** research direction. My work focuses on resilient energy systems, AI-assisted power-system operation, cyber-physical security, grid restoration, data-center grid integration, and critical-facility energy resilience.
 
-My work asks how modern energy infrastructure can move from reactive recovery toward anticipatory, verified, and operator-friendly decision-making. I develop optimization, simulation, reinforcement learning, physics-informed machine learning, and hardware-in-the-loop workflows for power systems under outages, cyber-physical disturbances, extreme weather, and large-load growth.
+My research asks how modern energy infrastructure can move from reactive recovery toward anticipatory, verified, and operator-friendly decision-making. I develop optimization, simulation, reinforcement learning, physics-informed machine learning, and hardware-in-the-loop workflows for power systems under outages, cyber-physical disturbances, extreme weather, and rapid large-load growth.
 
 <div class="row mt-4">
   <div class="col-md-6 mb-3"><div class="card hoverable p-3 h-100"><h4>Resilient grid operation</h4><p>Restoration, blackstart-compatible resources, microgrids, and secure operation of inverter-dominated distribution networks.</p></div></div>
@@ -52,6 +52,6 @@ My work asks how modern energy infrastructure can move from reactive recovery to
 <div class="mt-4">
   <a class="btn btn-primary btn-sm" href="{{ '/research/' | relative_url }}">Research</a>
   <a class="btn btn-outline-primary btn-sm" href="{{ '/projects/' | relative_url }}">Projects</a>
-  <a class="btn btn-outline-primary btn-sm" href="{{ '/group/' | relative_url }}">Group</a>
+  <a class="btn btn-outline-primary btn-sm" href="{{ '/people/' | relative_url }}">People</a>
   <a class="btn btn-outline-primary btn-sm" href="{{ '/cv/' | relative_url }}">CV</a>
 </div>
