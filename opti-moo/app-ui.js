@@ -131,9 +131,17 @@ function mapMetricInfo(metric){
 
 async function ensureGeo(){
   if(geoData) return geoData;
-  const names=["states-1.json","states-2.json","states-3.json","states-4.json"];
-  const parts=await Promise.all(names.map(async name=>{const res=await fetch(name); if(!res.ok) throw new Error(`Could not load ${name}.`); return res.json();}));
-  geoData={viewBox:[0,0,975,610],features:parts.flatMap(p=>p.features)}; return geoData;
+  if(!window.d3 || !window.topojson) throw new Error("U.S. map libraries did not load.");
+  const res=await fetch("https://cdn.jsdelivr.net/npm/us-atlas@3.0.1/states-albers-10m.json");
+  if(!res.ok) throw new Error("Could not load published U.S. state geometry.");
+  const us=await res.json();
+  const collection=window.topojson.feature(us,us.objects.states);
+  const path=window.d3.geoPath();
+  geoData={viewBox:[0,0,975,610],features:collection.features.map(f=>{
+    const state=FIPS_TO_STATE[String(f.id).padStart(2,"0")];
+    return state?{state,path:path(f)}:null;
+  }).filter(Boolean)};
+  return geoData;
 }
 
 function hexToRgb(hex){ const n=parseInt(hex.replace("#",""),16); return [(n>>16)&255,(n>>8)&255,n&255]; }
