@@ -1,1 +1,5 @@
-"use strict";!function(){function t(t){return new Promise((e,n)=>{const r=document.createElement("script");r.src=t,r.async=!1,r.onload=e,r.onerror=()=>n(new Error(`Could not load ${t}`)),document.head.appendChild(r)})}t("app-core.js").then(()=>t("app-ui.js")).catch(t=>{const e=document.getElementById("runStatus");e&&(e.textContent="Startup error",e.className="status-pill"),alert(t.message)})}();
+"use strict";
+(function(){
+  function load(src){return new Promise((resolve,reject)=>{const s=document.createElement("script");s.src=src;s.async=false;s.onload=resolve;s.onerror=()=>reject(new Error(`Could not load ${src}`));document.head.appendChild(s);});}
+  load("map-bridge.js").then(()=>load("app-core.js")).then(()=>load("app-ui.js")).catch(err=>{console.error(err);const el=document.getElementById("runStatus");if(el){el.textContent="Startup error";el.className="status-pill";}alert(err.message);});
+})();
